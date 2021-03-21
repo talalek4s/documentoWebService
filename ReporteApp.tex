@@ -1,0 +1,19 @@
+\documentclass{report}
+\title{Calmvet}
+\author{Aaron Cervantes Alvarez\\ Jorge Pineda López}
+\begin{document}
+	\maketitle
+	\section*{Descripción de la aplicación}
+textbf{Calm} es una aplicación para dispositivos móviles que busca facilitar la adopción de mascotas(perros y gatos) entre dueños de los animales y los adoptantes.\\ La aplicación tendrá la funcionalidad dual de proporcionar a los dueños el medio para describir las características de las mascotas así como también facilitar a los adoptantes la búsqueda de mascotas afines a sus necesidades.
+
+\section*{Componentes de la arquitectura}
+Se  usara una base de datos no relacional,plataformas de desarrollo 
+	\begin{itemize}
+		\item firebase
+		\item Sistemas Android e iOS
+	\end{itemize}
+\section*{Servicios web}
+Esta app mostrará al usuario adoptante un listado con las  mascota que describan los distintos dueños, y seleccionará la que mejor le parezca; después el item seleccionado se borrará del listado, análogamente, los dueños podrán colocar nueva información de nuevas mascotas.\\
+Con base en el párrafo anterior las operaciones que se llevaran a cabo serán: listar elementos, leer un elemento en particular, borrar un elemento, insertar un elemento nuevo y actualizar la lista de todos los elementos
+\end{document}
+
